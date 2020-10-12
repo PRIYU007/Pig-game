@@ -129,8 +129,8 @@ roundScore = 0;
 activePlayer = 0;
 gamePlaying = true;
 // Js CSS
-document.getElementById('dice-1').style.display = 'block';
-document.getElementById('dice-2').style.display = 'block';
+document.getElementById('dice-1').style.display = 'none';
+document.getElementById('dice-2').style.display = 'none';
 
 // select elemnt by id
 document.getElementById('score-0').textContent = '0';
